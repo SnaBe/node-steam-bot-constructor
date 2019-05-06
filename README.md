@@ -5,6 +5,8 @@
 [![license](https://img.shields.io/npm/l/steam-bot-constructor.svg)](https://github.com/SnaBe/node-steam-bot-constructor/blob/master/LICENSE)
 [![paypal](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://www.paypal.me/snabe)
 
+The steam-bot-constructor module lets you create multiple instances of the same type of Steam bot, it also gives you the option to add your own functions & custom features to a specific bot instance. 
+
 **Have a question about the module or programming in general? *Do not create a GitHub issue.* GitHub issues are for feature requests and bug reports. Instead, send an email to support@tf2keys.net. Such issues may be ignored!**
 
 The example folder includes: 

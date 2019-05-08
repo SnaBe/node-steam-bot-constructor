@@ -9,8 +9,9 @@ The steam-bot-constructor module lets you create multiple instances of the same 
 
 **Have a question about the module or programming in general? *Do not create a GitHub issue.* GitHub issues are for feature requests and bug reports. Instead, send an email to support@tf2keys.net. Such issues may be ignored!**
 
-The example folder includes: 
-- Setting up bots
+The example folder includes:
+- Setting up a basic project
+- Setting up multiple bots
 - Customize bot features
 
 # Documentation

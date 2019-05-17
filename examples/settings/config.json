@@ -1,0 +1,22 @@
+{
+  "tradeBot": {
+    "username": "",
+    "password": "",
+    "sharedSecret": "",
+    "identitySecret" : ""
+  },
+  "idleBot": {
+    "username": "",
+    "password": "",
+    "sharedSecret": "",
+    "identitySecret" : ""
+  },
+  "steam": {
+    "ownerLink": "",
+    "adminID": ""
+  },
+  "messages": {
+    "greetMessage": "",
+    "test": ""
+  }
+}

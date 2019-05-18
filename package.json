@@ -1,0 +1,30 @@
+{
+  "name": "steam-bot-constructor",
+  "version": "1.0.0",
+  "description": "A module for creating multiple instances of the same type of Steam bot.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SnaBe/node-steam-bot-constructor.git"
+  },
+  "keywords": [
+    "steam",
+    "bot",
+    "constructor",
+    "instances",
+    "customize"
+  ],
+  "author": "Simon S. Sørensen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SnaBe/node-steam-bot-constructor/issues"
+  },
+  "homepage": "https://github.com/SnaBe/node-steam-bot-constructor#readme"
+}

@@ -1,6 +1,6 @@
 {
   "name": "steam-bot-constructor",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A module for creating multiple instances of the same type of Steam bot.",
   "main": "index.js",
   "directories": {
@@ -26,5 +26,11 @@
   "bugs": {
     "url": "https://github.com/SnaBe/node-steam-bot-constructor/issues"
   },
-  "homepage": "https://github.com/SnaBe/node-steam-bot-constructor#readme"
+  "homepage": "https://github.com/SnaBe/node-steam-bot-constructor#readme",
+  "dependencies": {
+    "steam-totp": "^2.1.0",
+    "steam-tradeoffer-manager": "^2.9.5",
+    "steam-user": "^4.8.0",
+    "steamcommunity": "^3.40.0"
+  }
 }

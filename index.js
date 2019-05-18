@@ -24,7 +24,7 @@ class SteamBot {
     //The loggedOn event was emitted
     this.client.on('loggedOn', (details) => {
       logger.info(`Bot ${this.client.steamID.getSteamID64()} successfully logged into Steam!`);
-      //Set the clients state to Online
+      //Set the clients default state to Online
       this.client.setPersona(SteamUser.EPersonaState.Online);
     });
     //The clients web session
@@ -53,4 +53,5 @@ class SteamBot {
   }
 }
 
+//Export the module
 module.exports = SteamBot;

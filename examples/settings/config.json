@@ -3,17 +3,19 @@
     "username": "",
     "password": "",
     "sharedSecret": "",
-    "identitySecret" : ""
+    "identitySecret" : "",
+    "displayName": "Trade Bot #1"
   },
   "idleBot": {
     "username": "",
     "password": "",
     "sharedSecret": "",
-    "identitySecret" : ""
+    "identitySecret" : "",
+    "displayName": "Idle Bot #1"
   },
   "steam": {
     "ownerLink": "",
-    "adminID": ""
+    "ownerID": ""
   },
   "messages": {
     "greetMessage": "",

@@ -1,6 +1,6 @@
 {
   "name": "steam-bot-constructor",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A module for creating multiple instances of the same type of Steam bot.",
   "main": "index.js",
   "directories": {
@@ -17,6 +17,7 @@
   "keywords": [
     "steam",
     "bot",
+    "trading",
     "constructor",
     "instances",
     "customize"

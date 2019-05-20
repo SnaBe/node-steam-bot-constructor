@@ -2,6 +2,7 @@
 ### A module for creating multiple instances of the same type of Steam bot. 
 [![npm version](https://img.shields.io/npm/v/steam-bot-constructor.svg)](https://npmjs.com/package/steam-bot-constructor)
 [![npm downloads](https://img.shields.io/npm/dm/steam-bot-constructor.svg)](https://npmjs.com/package/steam-bot-constructor)
+[![dependencies](https://img.shields.io/david/SnaBe/node-steam-bot-constructor.svg)](https://david-dm.org/SnaBe/node-steam-bot-constructor)
 [![license](https://img.shields.io/npm/l/steam-bot-constructor.svg)](https://github.com/SnaBe/node-steam-bot-constructor/blob/master/LICENSE)
 [![paypal](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://www.paypal.me/snabe)
 

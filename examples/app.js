@@ -6,6 +6,9 @@ const AppID = require('../resources/appids');
 const SteamBot = require('../index');
 //Other required modules
 const SteamTotp = require('steam-totp');
+const SteamRepApi = require('steamrep');
+
+SteamRepApi.timeout = 5000;
 
 //Setup a new SteamBot instance named tradeBot
 const tradeBot = new SteamBot({
@@ -18,15 +21,15 @@ const tradeBot = new SteamBot({
 const idleBot = new SteamBot({
   accountName: config.idleBot.username,
   password: config.idleBot.password,
-  twoFactorCode: SteamTotp.generateAuthCode(config.tradeBot.sharedSecret)
+  twoFactorCode: SteamTotp.generateAuthCode(config.idleBot.sharedSecret)
 });
 
-//The tradeBot instance will play CSGO once it logs onto Steam.
+//The tradeBot instance will play TF2 once it logs onto Steam.
 tradeBot.client.on('loggedOn', function(details) {
   tradeBot.client.gamesPlayed(AppID.TF2);
 });
 
-//The idleBot instance will play TF2 once it logs onto Steam.
+//The idleBot instance will play DOTA 2 once it logs onto Steam.
 idleBot.client.on('loggedOn', function(details) {
   idleBot.client.gamesPlayed(AppID.DOTA2);
 });
@@ -41,4 +44,5 @@ tradeBot.manager.on('newOffer', function(offer) {
 //Your custom function to process the parsed offer.
 function processOffer(offer) {
   logger.info(`Processing offer #${offer.id}`);
+  //You can add more of your own code here
 }

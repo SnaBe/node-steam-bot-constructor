@@ -13,6 +13,7 @@ The example folder includes:
 - Setting up a basic project
 - Setting up multiple bots
 - Customize bot features
+- Using built-in methods
 
 # Documentation
 See the [Wiki](https://github.com/SnaBe/node-steam-bot-constructor/wiki) for the documentation.

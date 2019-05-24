@@ -1,6 +1,6 @@
 {
   "name": "steam-bot-constructor",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A module for creating multiple instances of the same type of Steam bot.",
   "main": "index.js",
   "directories": {

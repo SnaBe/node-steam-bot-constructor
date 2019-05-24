@@ -14,7 +14,7 @@ const tradeBot = new SteamBot({
   twoFactorCode: SteamTotp.generateAuthCode(config.tradeBot.sharedSecret),
   identitySecret: config.tradeBot.identitySecret,
   gamesToPlay: AppID.TF2,
-  personaName: config.idleBot.displayName 
+  personaName: config.tradeBot.displayName 
 });
 
 //Setup a new SteamBot instance named idleBot

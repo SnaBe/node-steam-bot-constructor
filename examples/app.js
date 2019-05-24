@@ -34,6 +34,20 @@ tradeBot.manager.on('newOffer', function(offer) {
   processOffer(offer);
 });
 
+idleBot.client.on('friendMessage', function(steamID, message) {
+  switch(message) {
+    case '!help':
+      idleBot.client.chatMessage(steamID, 'Hello! I\'m a TF2 bot. To get started type !commands');
+      break;
+    case '!commands':
+      idleBot.client.chatMessage(steamID, 'Current list of commands: !help, !commands');
+      break;
+    default:
+      idleBot.client.chatMessage(steamID, 'Unknown command, please try !commands or !help.'); 
+      break; 
+  }
+});
+
 //Your custom function to process the parsed offer.
 function processOffer(offer) {
   logger.info(`Processing offer #${offer.id}`);

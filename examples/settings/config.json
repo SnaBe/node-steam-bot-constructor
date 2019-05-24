@@ -4,17 +4,18 @@
     "password": "",
     "sharedSecret": "",
     "identitySecret" : "",
-    "displayName": "Trade Bot #1"
+    "displayName": "BOT #1"
   },
   "idleBot": {
     "username": "",
     "password": "",
     "sharedSecret": "",
     "identitySecret" : "",
-    "displayName": "Idle Bot #1"
+    "displayName": "BOT #2"
   },
   "media": {
-
+    "steamGroup": "",
+    "discordServer": ""
   },
   "steam": {
     "ownerLink": "",

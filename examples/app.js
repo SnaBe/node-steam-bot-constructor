@@ -34,6 +34,7 @@ tradeBot.manager.on('newOffer', function(offer) {
   processOffer(offer);
 });
 
+//When the idleBot instance receives chat messages
 idleBot.client.on('friendMessage', function(steamID, message) {
   switch(message) {
     case '!help':
